@@ -1,0 +1,50 @@
+/* ukinuti univerzalne selektore */
+
+* {
+  box-sizing: border-box;
+  transition: all 0.5s ease-out;
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+	position: absolute;
+}
+
+.upper-img {
+    float: left;
+}
+
+.elements-wrapper {
+    position: relative;
+}
+
+.single-element-wrapper {
+    position: absolute;
+    width:25%;
+    overflow: hidden;
+}
+
+/* HELPERS */
+
+.img-responsive {
+    width:100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
